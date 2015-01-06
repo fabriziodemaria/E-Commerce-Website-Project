@@ -1,0 +1,223 @@
+	body {
+	background-size: 100%;
+	background-color: #DBDBDB;
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica;
+	}
+	
+	ul{
+	    list-style: none;
+	    text-align:right;
+	    margin-right:1.5em;
+	}
+	
+	ul li{
+	    padding:0.4em; 
+	    text-align:right;  
+	}
+	
+	#showbutton{
+		padding : 15px 15px 15px 15px;
+		text-align: center;
+	}
+	
+	#container{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0em;
+	margin-bottom:0em;
+	width:1000px;
+	height:100%;
+	}
+	
+	#header 
+	{
+	background-color:#3A6595;
+	height: auto;
+	padding:1em;
+	border:0px none;
+	width:100%;
+	min-width:1000px;
+	left:0px;
+	top:0px;
+	margin-left:auto;
+	min-height:50px;
+	text-shadow: 0.2em 0.2em 0.1em; margin-right:0px; margin-top:0px; margin-bottom:0px;
+	-webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+	    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+	    box-shadow:inset 0px 0px 0px 2px #000;
+	
+	}
+	
+	#footer 
+	{
+	background-color:#3A6595;
+	height: auto;
+	padding:1em;
+	border:0px none;
+	width:100%;
+	min-width:1000px;
+	left:0px;
+	top:0px;
+	margin-left:auto;
+	height:10px;
+	-webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+	    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+	    box-shadow:inset 0px 0px 0px 1px #000;
+	
+	}
+	
+	#username{
+		width:100%;
+	}
+
+	#pwd{
+		width:100%;
+	}
+	
+	#password{
+		width:100%;
+	}
+	
+	#myinput{
+	    font-size:1em;  
+	    padding:2px;
+	    float:right;
+	}
+	
+	#toptitle{
+	text-align:center;
+	font-size: 3em;
+	font-family: "Arial Narrow";
+	color:white;
+	padding:0.1em;
+	border:3px none; 
+	margin:3px;
+	height:1em;
+	}
+	#navigationBar
+	{
+	background-color:#DBDBDB;
+	float: left;
+	width:20%;
+	height:100%;
+	min-height:600px;
+	font-size:1em;
+	}
+	
+	#myMenu{
+	text-align:left;
+	margin-top:3em;
+	}
+	
+	#myContent{
+	background-color: #F6F6F6;
+	opacity: 0.96;
+	width:80%;
+	height:100%;
+	min-height:600px;
+	margin:0px;
+	padding:0px;
+	border:0px none;
+	float:right;
+	}
+	
+	
+	
+	.welcome{
+	text-align:center;
+	font-size: 2em;
+	margin-top:1em;
+	padding:0em;
+	}
+	
+	.error{
+	text-align:center;
+	color:red;
+	font-size: 1em;
+	margin-top:1em;
+	padding:0em;
+	}
+	
+	#containertop{
+		background-color: #fff25d;
+		height:50px; display:inline-block; 
+		vertical-align:middle; 
+		text-align:center; 
+		width: 100%;
+	}
+	
+	.confirm{
+	text-align:center;
+	color:green;
+	font-size: 1em;
+	margin-top:1em;
+	padding:0em;
+	}
+	
+	.instructions{
+	text-align:center;
+	font-family: "Arial Narrow";
+	font-size: 1.5em;
+	}
+	
+	
+	#myform{
+	border-style:outset;
+	background-color:white;
+	border-width: 3px;
+	border-color:#ACC8CC;
+	padding: 2em;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	}
+	
+	#myRegistration{
+	border-style:outset;
+	background-color:white;
+	border-width: 3px;
+	border-color:#ACC8CC;
+	padding: 3em;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	}
+	.regbox{
+		width:30%;
+		margin: 10px;
+	}
+	.sellbox{
+		width:50%;
+		margin: 10px;
+	}
+	
+	#myreg li{
+	margin-bottom:3em;
+	font-size:1em;
+	}
+	
+	label{
+		display:inline-block;
+		width: 30%;
+		text-align: right;
+		margin: 1px;
+	}
+	
+	#linkreg{
+	text-align:center; 
+	margin-left:auto;
+	margin-right:auto; 
+	}
+	
+	
+	.tftable {font-size:12px;color:#333333;width:100%;border-width: 2px;border-color: #729ea5;border-collapse: collapse;}
+	.tftable th {font-size:16px; background-color:#acc8cc;border-width: 2px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+	.tftable tr {background-color:#d4e3e5;}
+	.tftable td {font-size:12px;border-width: 2px;padding: 8px; border-style: solid;border-color: #729ea5;}
+	.tftable tr:hover {background-color:#ffffff;}
+						

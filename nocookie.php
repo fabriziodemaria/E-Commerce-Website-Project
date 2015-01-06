@@ -1,0 +1,30 @@
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Error</title>
+    </head>
+
+    <body>
+    	
+		<script type="text/javascript">
+			var cookieEnabled=(navigator.cookieEnabled)? true : false
+
+			//if not IE4+ nor NS6+
+			if (typeof navigator.cookieEnabled=="undefined" && !cookieEnabled){ 
+			document.cookie="testcookie"
+			cookieEnabled=(document.cookie.indexOf("testcookie")!=-1)? true : false
+			}
+
+			if (cookieEnabled){
+				window.location.href="index.php";
+			}
+
+		</script>
+		
+		<h1>Error: enable cookies to access Auctions!</h1>
+    	     
+    </body>
+</html>
